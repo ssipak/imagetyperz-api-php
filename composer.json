@@ -1,5 +1,5 @@
 {
-    "name": "imagetyperzapi/imagetyperzapi",
+    "name": "ssipak/imagetyperzapi",
     "type": "library",
     "description": "ImagetyperzAPI PHP is a super easy to use bypass captcha API wrapper for imagetyperz.com captcha service",
     "keywords": [
@@ -32,6 +32,9 @@
     "require": {
         "php": ">=5.3.0",
         "ext-curl": "*"
+    },
+    "autoload": {
+        "classmap": ["lib"]
     }
 }
 
